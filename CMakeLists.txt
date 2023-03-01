@@ -11,7 +11,7 @@ project(ssq VERSION 3.0.0)
 
 include_directories(include)
 
-add_library(ssq STATIC
+add_library(ssq
     src/a2s/info.c
     src/a2s/player.c
     src/a2s/rules.c
